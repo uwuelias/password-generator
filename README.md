@@ -1,4 +1,4 @@
-First official Python project 
+First Python project 
 
 Title: Password Generator
 
