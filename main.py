@@ -1,7 +1,13 @@
 import string
 import random
 
-length = int(input("Enter password length: "))
+length = input("Enter password length: ")
+
+while (not length.isnumeric()):
+    print("Invalid response!")
+    length = input("Enter password length: ")
+
+length = int(length)
 
 print('''Choose character set for password from these: 
       1. Digits
